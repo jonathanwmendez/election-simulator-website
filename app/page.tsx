@@ -29,7 +29,7 @@ export default function Home() {
             <ClickCounter />
           </div>
         </div>
-        <footer className="flex items-center justify-center py-4">Copyright &copy; Jonathan W. Mendez. All Rights Reserved.</footer>
+        <footer className="flex items-center justify-center py-4 px-4 text-center">Copyright &copy; Jonathan W. Mendez. All Rights Reserved.</footer>
       </div>
     </main>
   );

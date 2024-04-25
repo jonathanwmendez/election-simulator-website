@@ -1,6 +1,5 @@
 # Election Simulator Website
 
-![Vercel Deploy](https://deploy-badge.vercel.app/vercel/election-simulator-website-gamma)
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
@@ -8,20 +7,30 @@
 ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
+![Website Preview Image](image.jpg)
+
 This website was created for the Chingu Solo Project entry requirement. This website is an election simulator project created using [Next.js](https://nextjs.org/) bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and is deployed on Vercel. 
 
 **LIVE LINK :** [https://election-simulator-website-gamma.vercel.app](https://election-simulator-website-gamma.vercel.app)
 
 ## Features
 - A responsive, mobile-friendly design.
-- Vote Button for counting votes and displays an updated count.
-- Reset Button for resetting the count for the votes.
+- Vote Buttons for counting votes and displays updated counts.
+- Reset Buttons for resetting the counts for the votes.
+- A link to this repository to make tranversing back and forth easier.
 
 
 
 ## Getting Started
+First, clone this project locally.
 
-First, run the development server:
+Second, install the dependencies:
+
+```bash
+npm install
+```
+
+Third, run the development server:
 
 ```bash
 npm run dev

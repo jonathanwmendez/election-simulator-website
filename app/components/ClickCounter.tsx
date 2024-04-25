@@ -28,9 +28,9 @@ const ClickCounter = () => {
 
     return (
         <div>
-            <h1>Votes: {count}</h1>
-            <button onClick={incrementCount}>Vote</button>
-            <button onClick={resetCount}>Reset</button>
+            <h1 className="flex justify-center py-8">Votes: {count}</h1>
+            <button className="rounded-full bg-white text-black p-2 hover:bg-blue-700 m-2" onClick={incrementCount}>Vote</button>
+            <button className="rounded-full bg-white text-black p-2 hover:bg-red-700 m-2" onClick={resetCount}>Reset</button>
         </div>
     );
 };

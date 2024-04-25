@@ -3,15 +3,15 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main>
+    <main className="font-mono">
       <div className="w-full min-h-screen flex flex-col">
         <h1 className="flex items-center justify-center py-4 uppercase">Election Simulator</h1>
         <div className="bg-[#1e293b] flex flex-grow text-white">
           <div className="w-1/2 flex flex-col items-center justify-center">
             <Image
               src="/images/DemocrateLogo.png"
-              width={100}
-              height={100}
+              width={150}
+              height={150}
               alt="Democrate Logo"
               className="pb-4 rounded-lg"
             />
@@ -21,8 +21,8 @@ export default function Home() {
           <div className="w-1/2 flex flex-col items-center justify-center">
             <Image
               src="/images/RepublicanLogo.png"
-              width={100}
-              height={100}
+              width={150}
+              height={150}
               alt="Republican Logo"
               className="pb-4 rounded-lg"
             />

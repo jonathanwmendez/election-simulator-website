@@ -3,14 +3,15 @@
 import { useEffect, useState } from 'react';
 
 const ClickCounter = () => {
-    const [count, setCount] = useState(0); // Initialize count to 0 by default
+    const [count, setCount] = useState(0); // Initializes the count to 0 by default
 
-    // Effect to run once on mount
+    // Checks to see if there is any data stored in localStorage and sets the value of the initial state; if there is no value it sets it to 0
     useEffect(() => {
         const initialValue = localStorage.getItem('clickCount');
         setCount(initialValue ? parseInt(initialValue) : 0);
     }, []);
 
+    // Increments the count by one every time the button is clicked
     const incrementCount = () => {
         const newCount = count + 1;
         setCount(newCount);
@@ -18,7 +19,8 @@ const ClickCounter = () => {
             localStorage.setItem('clickCount', newCount.toString());
         }
     };
-
+    
+    // Resets the count back to 0
     const resetCount = () => {
         setCount(0);
         if (typeof window !== 'undefined') {
